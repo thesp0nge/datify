@@ -5,8 +5,7 @@ module Datify
     include Datify::Language
 
     def initialize(string = nil)
-      default
-
+      default_language
     end
   end
 end

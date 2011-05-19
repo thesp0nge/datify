@@ -2,11 +2,11 @@ module Datify
   module Language
     attr_reader :lang
 
-    def default
+    def default_language
       @lang = 'it'
     end
 
-    def set(locale)
+    def set_language(locale)
       @lang = locale
     end
 
