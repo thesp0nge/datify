@@ -1,6 +1,24 @@
 = datify
 
-Description goes here.
+Datify is a rubygem to convert a string storing a date or a time in a proper
+Time ruby object.
+Imagine you have a text file containing a list of string formatted this way
+'day-month-year' and you want to have fulle featured Time object now you can
+with _datify_.
+
+The API is super easy, let's look at it.
+
+  require 'datify'
+
+  my_date = Datify::Engine.new('16-giu-1976')
+  puts my_date.date.to_s
+
+That's it!
+
+== Install
+
+You may want to install _datify_ with the following command:
+  gem install datify
 
 == Contributing to datify
  
