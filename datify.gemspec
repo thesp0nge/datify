@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Paolo Perego"]
   s.date = %q{2011-05-19}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{Datify is a rubygem to convert a string storing a date or a time in a proper Time ruby object}
   s.email = %q{thesp0nge@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "datify.gemspec",
     "lib/datify.rb",
     "lib/datify/engine.rb",
     "lib/datify/language.rb",
@@ -32,10 +33,10 @@ Gem::Specification.new do |s|
     "spec/spec_helper.rb"
   ]
   s.homepage = %q{http://github.com/thesp0nge/datify}
-  s.licenses = ["MIT"]
+  s.licenses = ["BSD"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{Datify is a rubygem to convert a string storing a date or a time in a proper Time ruby object}
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
