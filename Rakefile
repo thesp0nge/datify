@@ -16,9 +16,9 @@ Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "datify"
   gem.homepage = "http://github.com/thesp0nge/datify"
-  gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.license = "BSD"
+  gem.summary = %Q{Datify is a rubygem to convert a string storing a date or a time in a proper Time ruby object}
+  gem.description = %Q{Datify is a rubygem to convert a string storing a date or a time in a proper Time ruby object}
   gem.email = "thesp0nge@gmail.com"
   gem.authors = ["Paolo Perego"]
   # dependencies defined in Gemfile
