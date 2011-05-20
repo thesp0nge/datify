@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{datify}
-  s.version = "0.20.0"
+  s.version = "0.50.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Paolo Perego"]
-  s.date = %q{2011-05-19}
+  s.date = %q{2011-05-20}
   s.description = %q{Datify is a rubygem to convert a string storing a date or a time in a proper Time ruby object}
   s.email = %q{thesp0nge@gmail.com}
   s.extra_rdoc_files = [
@@ -30,7 +30,8 @@ Gem::Specification.new do |s|
     "lib/datify/engine.rb",
     "lib/datify/language.rb",
     "spec/datify_spec.rb",
-    "spec/spec_helper.rb"
+    "spec/spec_helper.rb",
+    "spec/string_spec.rb"
   ]
   s.homepage = %q{http://github.com/thesp0nge/datify}
   s.licenses = ["BSD"]
