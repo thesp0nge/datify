@@ -6,7 +6,18 @@ Imagine you have a text file containing a list of string formatted this way
 'day-month-year' and you want to have fulle featured Time object now you can
 with _datify_.
 
-The API is super easy, let's look at it.
+*NEWS*
+From the version 0.50 and beyond, you don't have to call internal Datify::Engine methods anymore, but eventually you may want to use two new methods _datify_ has added to String class.
+
+If you require the _datify_ gem, your strings will acquire:
+  is_time? - a boolean checking out if the string is a good datetime
+  to_time  - the core method returning a Time object for the self class
+
+The API now is even easier.
+  "23-giu-1976".is_time? _~> true_
+  "23-giu-1976".to_time _1976-06-23 00:00:00 +0200_  
+
+Of course you can work in the previous way as well.
 
   require 'datify'
 
