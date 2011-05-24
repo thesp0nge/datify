@@ -26,10 +26,6 @@ module Datify
       d.valid?.should   be_false
     end
 
-    it 'should handle a custom separator' do
-      pending 'In the future you may want to specify a custom separator'
-    end
-
     it 'should handle the :en locale' do
       pending 'In the future you must be able to set the locale you want to use'
     end

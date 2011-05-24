@@ -20,4 +20,14 @@ describe String, "datify" do
   it "should return a nil object when trying to convert an invalid date" do
     "This is not a date".to_time.should be_nil
   end
+
+  it "should handle the '/' separator" do
+    "23/giu/1976".is_time?.should be_true
+    "23/giu/1976".to_time.should be_a(Time)
+  end
+
+  it "should handle custome separators" do
+    "23$giu$1976".to_time('$').should be_a(Time)
+  end
+
 end

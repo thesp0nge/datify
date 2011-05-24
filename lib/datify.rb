@@ -5,7 +5,7 @@ class String
     Datify::Engine.new(self).valid?
   end
 
-  def to_time
+  def to_time(separator=nil)
     Datify::Engine.new(self).date
   end
 end
